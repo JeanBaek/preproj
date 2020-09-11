@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>은진이의 자기소개 페이지</title>
+    <link rel="stylesheet" type="text/css" href="main1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+
+  <body>
+    <!--
+    <div class="topnav" id="myTopnav">
+      <a href="#top"><h1>JEANBAEK</h1></a>
+      <div id="dropdown">
+        <a href="#aboutMe"> ABOUT ME </a>
+        <div class="dropdown">
+          <button class="dropbtn">FAVORITES
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#songs">SONGS</a>
+            <a href="#books">BOOKS</a>
+            <a href="#films">FILMS</a>
+            <a href="#travel">TRAVEL</a>
+            <a href="#여울">여울</a>
+          </div>
+        </div>
+        <a href="#footer">CONTACT</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+      </div>
+    </div>
+     -->
+
+     <div class="topnav" id="myTopnav">
+       <a href="#top"><h1>JEANBAEK</h1></a>
+       <div id="menu">
+         <a href="#aboutMe"> ABOUT ME </a>
+         <a href="#songs">SONGS</a>
+         <a href="#books">BOOKS</a>
+         <a href="#films">FILMS</a>
+         <a href="#travel">TRAVEL</a>
+         <a href="#여울">여울</a>
+         <a href="#footer">CONTACT</a>
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+       </div>
+     </div>
+
+
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += "responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var mytopnav = document.getElementById("mytopnav");
+    var sticky = mytopnav.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        mytopnav.classList.add("sticky")
+      } else {
+        mytopnav.classList.remove("sticky");
+      }
+    }
+    </script>
+
+
+    <div class="intro">
+      <a id="intro">
+        <h2>"Hello World! 나는 백은진이에요"</h2>
+      </a>
+      <p>
+        <a href="#aboutMe">∨</a>
+      </p>
+    </div>
+
+
+    <div>
+      <a id="aboutMe">
+        <h2>『 ABOUT ME 』</h2>
+      </a>
+      <div>
+        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1480&q=80" width="60%">
+        <br><br>
+          <p>
+            촬영 현장의 설레는 분위기가 좋습니다.<br>
+            각자 맡은 역할에서 최선을 다할 때, 시너지가 발생하는 그 순간이 좋습니다.<br><br>
+            고등학교에서 촬영을 전공했습니다.<br><br><br>
+          </p>
+        <img src="https://image.kkday.com/v2/image/get/w_960%2Cc_fit%2Cq_55%2Ct_jpg/s1.kkday.com/product_21005/20181220092852_ohkmn/jpeg" width="60%">
+          <p>
+            감정을 극적으로 다듬어 터뜨리는 무대가 좋습니다.<br>
+            그 순간에만 존재할 수 있는 음악과 노래가 좋습니다.<br>
+            사람의 몸을 다듬어 악기보다 더 아름다운 소리를 내는 과정이 즐겁습니다.<br><br>
+            뮤지컬 배우를 준비했습니다.<br><br><br>
+          </p>
+        <img src="https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" width="60%">
+          <p>
+            옳고 그름이 정확한 코딩이 재밌습니다.<br>
+            코딩을 하다가 머릿속이 깨끗해지는 그 순간이 정말 좋습니다.<br><br>
+            이제 코딩을 통해 제 생각를 보이려 합니다.<br><br><br>
+          </p>
+       </div>
+     </div>
+
+
+     <div>
+       <a id="favorites">
+         <h2>『 FAVORITES 』</h2>
+       </a>
+
+       <a id="songs">
+         <h2>「 SONGS 」</h2>
+       </a>
+         <div class="songs">
+           <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Aromanticism_Moses_Sumney.jpg" width="20%">
+           <img src="https://t1.daumcdn.net/cfile/tistory/996546495E147EFB16" width="20%">
+           <img src="https://images-na.ssl-images-amazon.com/images/I/51z8j-CIRXL._AC_SX425_.jpg" width="20%">
+           <img src="https://images-na.ssl-images-amazon.com/images/I/51tvvhPfqTL.jpg" width="20%">
+           <img src="https://ticketimage.interpark.com/interparkenter/jaurim/discography/jaurim_discography_pc_cover(530x530px)_13.jpg" width="20%">
+           <img src="https://i1.wp.com/hiphopkr.com/wp-content/uploads/2019/12/cl-in-the-name-of-love-2.jpg?fit=760%2C760&ssl=1" width="20%">
+           <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Damien_Rice_O_album_cover.jpg" width="20%">
+           <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/Foreword_by_Tori_Kelly.png" width="20%">
+         </div>
+
+       <a id="books">
+         <h2>「 BOOKS 」</h2>
+       </a>
+         <div class="books">
+           <img src="https://image.yes24.com/momo/TopCate1899/MidCate009/189882972.jpg" width="20%">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Demian_Erstausgabe.jpg/1200px-Demian_Erstausgabe.jpg" width="20%">
+           <img src="https://pictures.abebooks.com/DORLEYHOUSEBOOKS/12771628522.jpg" width="20%">
+           <img src="https://img.ridicdn.net/cover/371001936/xxlarge" width="20%">
+         </div>
+
+       <a id="films">
+         <h2>「 FILMS 」</h2>
+       </a>
+         <div class="flims">
+           <img src="https://store-images.s-microsoft.com/image/apps.51445.9007199266246365.c6dce6b1-5edd-4e64-a117-0e45b8165403.c7938026-2c39-48b0-b8f8-067273b77187" width="30%">
+           <img src="https://is3-ssl.mzstatic.com/image/thumb/Video128/v4/cf/48/8f/cf488ff7-5d57-2b45-7dfe-c03c4005b69a/mzl.cgnethov.lsr/268x0w.jpg" width="30%">
+           <img src="https://i.pinimg.com/originals/a5/be/80/a5be80d32aa27c56eacd26ac5503320a.jpg" width="30%">
+         </div>
+
+       <a id="travel">
+         <h2>「 TRAVEL 」</h2>
+       </a>
+         <div class="travel">
+           <img src="IMG_8887.JPG" width="70%">
+           <img src="IMG_7838.JPG" width="70%">
+           <img src="IMG_4591.JPG" width="70%">
+           <img src="IMG_4174.JPG" width="70%">
+         </div>
+
+       <a id="여울">
+         <h2>「 여울 」</h2>
+       </a>
+         <div id="yeoul">
+           <img src="yeoul.jpeg" width="60%">
+         </div>
+     </div>
+
+
+     <footer class="footer">
+       <a id="footer">&copy; 2020 WECODE 13th : Week 1 of the Pre-Project</a>
+       <div class="icons">
+         <a href="https://github.com/JeanBaek" target="_blank" title="Github"><i class="fa fa-github"></i></a>
+         <a href="https://velog.io/@jeanbaek" target="_blank" title="Velog"><i class="fa fa-vimeo"></i></a>
+         <a href="https://www.instagram.com/jean.baek.kor/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a>
+         <a href="mailto:jeanbaek710@gmail.com" target="_blank" title="E-Mail"><i class="fa fa-envelope-open"></i></a>
+       </div>
+     </footer>
+
+
+  </body>
+</html>
